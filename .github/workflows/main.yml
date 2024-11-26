@@ -12,4 +12,4 @@ jobs:
     - name: run YAPF to test if python code is correctly formatted.
       uses: AlexanderMelde/yapf-action@master
       with:
-        args: --verbose --exclude '**/test/**' --exclude 'invalid_file.py'
+        args: --verbose --exclude '**/test/**' --exclude '**/invalid_file.py'
